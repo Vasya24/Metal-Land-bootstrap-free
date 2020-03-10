@@ -23,6 +23,12 @@ a {
     color: brown;
 }
 
+#logo-img {
+    height: 30%;
+    width: 30%;
+    opacity: 0.6;
+}
+
 .header {
     position: relative;
     min-width: 1200px;
@@ -104,6 +110,7 @@ a {
 .page {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     width: 1170px;
     margin-top: 60px;
@@ -113,35 +120,37 @@ a {
     padding-right: 15px;
 }
 
-.logo-img {
-    height: 70px;
-}
-
-.articles {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.article {
-    box-sizing: border-box;
+.card {
+    width: 200px;
+    height: 400px;
+    position: relative;
     border: 1px solid black;
-    border-radius: 20px;
-    width: 30%;
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 30px;
-    margin-top: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.article-img {
-    height: 50%;
-    width: 50%;
-    border-radius: 50%;
+.img-box {
+    width: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.content-header>h3 {
+    word-break: break-word;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.card-pic {
+    padding-top: 5px;
+    width: 150px;
+    height: 150px;
+    margin-left: 24.2px;
+    margin-left: 24.2px;
 }
 
 .footer {
@@ -153,15 +162,6 @@ a {
     padding-right: 15px;
     text-align: center;
     background-color: #B19893;
-}
-
-tr,
-td {
-    border: 1px solid black;
-}
-
-table {
-    padding-left: 10px;
 }
 
 .copyright {

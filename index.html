@@ -7,16 +7,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
-    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
-    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
-    <script src="jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <a href="#"><img src="https://ya-webdesign.com/images250_/skeleton-face-png-5.png" alt="logo-img" class="logo-img">
+            <a href="#"><img src="https://ya-webdesign.com/images250_/skeleton-face-png-5.png" alt="logo-img" id="logo-img">
             </a>
             <nav class="navbar">
                 <ul class="navbar-items">
@@ -33,92 +30,56 @@
         </div>
     </header>
     <div class="page">
-
-        <header class="news-header">
-            <h2 class="news-header-link"><a href="#">Новости</a></h2>
-        </header>
-        <div class="articles">
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">Новый альбом OZZY OSBOURNE доступен для прослушивания</a></h3>
-                    <time class="article-time" datetime=2020-02-21>21 фев., 2020</time>
+        <div class="card" id="card1">
+            <div class="img-box"><img src="img/trooper-ipa.jpg" alt="" class="card-pic" id="pic-1"></div>
+            <div class="card-content" id="content-1">
+                <div class="content-header" id="cont-head-1">
+                    1Iron Maiden анонсировали еще два сорта пива в линейке ‘Trooper’
                 </div>
-                <div class="article-content">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Ordinary_Man.jpg" alt="article-img" class="article-img">
-                </div>
+                <p class="card-text" id="text-1"></p>
             </div>
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">Детали документального фильма о DIO</a></h3>
-                    <time class="article-time" datetime=2020-02-21>21 фев., 2020</time>
+        </div>
+        <div class="card" id="card2">
+            <div class="img-box"><img src="img/trooper-ipa.jpg" alt="" class="card-pic" id="pic-2"></div>
+            <div class="card-content" id="content-2">
+                <div class="content-header" id="cont-head-2">
+                    <h3>2Iron Maiden анонсировали еще два сорта пива в линейке ‘Trooper’</h3>
                 </div>
-                <div class="article-content">
-                    <img src="https://darkside.ru/band/435/n118049.jpg" alt="article-img" class="article-img">
-                </div>
+                <p class="card-text" id="text-2"></p>
             </div>
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">Новый сингл от EXHORDER</a></h3>
-                    <time class="article-time" datetime=2020-02-24>24 фев., 2020</time>
+        </div>
+        <div class="card" id="card3">
+            <div class="img-box"><img src="img/trooper-ipa.jpg" alt="" class="card-pic" id="pic-3"></div>
+            <div class="card-content" id="content-3">
+                <div class="content-header" id="cont-head-3">
+                    <h3>3Iron Maiden анонсировали еще два сорта пива в линейке ‘Trooper’</h3>
                 </div>
-                <div class="article-content">
-                    <img src="https://assets.blabbermouth.net/media/exhorderbandjuly2019_638.jpg" alt="article-img" class="article-img">
-                </div>
+                <p class="card-text" id="text-3"></p>
             </div>
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">SCORPIONS отменили шоу в Сиднее из-за госпитализации Клауса Майне</a></h3>
-                    <time class="article-time" datetime=2020-02-22>22 фев., 2020</time>
+        </div>
+        <div class="card" id="card4">
+            <div class="img-box"> <img src="img/trooper-ipa.jpg" alt="" class="card-pic" id="pic-4"></div>
+            <div class="card-content" id="content-4">
+                <div class="content-header" id="cont-head-4">
+                    <h3>4Iron Maiden анонсировали еще два сорта пива в линейке ‘Trooper’</h3>
                 </div>
-                <div class="article-content">
-                    <img src="https://darkside.ru/band/1199/n118142.jpg" alt="article-img" class="article-img">
-                </div>
+                <p class="card-text" id="text-4"></p>
             </div>
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">Lorem, ipsum dolor.</a></h3>
-                    <time class="article-time" datetime=2020-02-21>21 фев., 2020</time>
+        </div>
+        <div class="card" id="card5">
+            <div class="img-box"><img src="img/trooper-ipa.jpg" alt="" class="card-pic" id="pic-5"></div>
+            <div class="card-content" id="content-5">
+                <div class="content-header" id="cont-head-5">
+                    <h3>5Iron Maiden анонсировали еще два сорта пива в линейке ‘Trooper’</h3>
                 </div>
-                <div class="article-content">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Ordinary_Man.jpg" alt="article-img" class="article-img">
-                </div>
-            </div>
-            <div class="article">
-                <div class="article-header">
-                    <h3 class="article-name"><a href="#" class="article-link">Lorem, ipsum dolor.</a></h3>
-                    <time class="article-time" datetime=2020-02-21>21 фев., 2020</time>
-                </div>
-                <div class="article-content">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Ordinary_Man.jpg" alt="article-img" class="article-img">
-
-                </div>
+                <p class="card-text" id="text-5"></p>
             </div>
         </div>
     </div>
-    <section class="shows">
-        <h3 id="shows-title"><a href="#">Грядущие концерты</a></h3>
-        <table class="show-schedule">
-            <tr>
-                <td class="show-date"><time class="show-time" datetime="2020-02-21">21 февраля 2020</time></td>
-                <td class="show-artist">Ozzy Osbourne</td>
-                <td class="show-city">Москва</td>
-                <td class="show-arena">БСА "Лужники"</td>
-            </tr>
-            <tr>
-                <td class="show-date"><time class="show-time" datetime="2020-02-21">21 февраля 2020</time></td>
-                <td class="show-artist">Ozzy Osbourne</td>
-                <td class="show-city">Москва</td>
-                <td class="show-arena">БСА "Лужники"</td>
-            </tr>
-            <tr>
-                <td class="show-date"><time class="show-time" datetime="2020-02-21">21 февраля 2020</time></td>
-                <td class="show-artist">Ozzy Osbourne</td>
-                <td class="show-city">Москва</td>
-                <td class="show-arena">БСА "Лужники"</td>
-            </tr>
-        </table>
-    </section>
 
+
+    </div>
+    </div>
     <footer class="footer">
         <address class="social-buttons">
             <ul class="socials-list">
