@@ -121,8 +121,9 @@ a {
 }
 
 .card {
+    transition: .5s ease-in-out;
     width: 200px;
-    height: 400px;
+    height: 200px;
     position: relative;
     border: 1px solid black;
     box-sizing: border-box;
@@ -139,7 +140,7 @@ a {
     padding-top: 5px;
 }
 
-.content-header>h3 {
+.content-header>h6 {
     word-break: break-word;
     text-align: center;
     border-top: 1px solid black;
