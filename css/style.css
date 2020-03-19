@@ -30,15 +30,12 @@ a {
 }
 
 .header {
-    position: relative;
+    position: fixed;
+    z-index: 2222;
     min-width: 1200px;
-    height: 400px;
-    background-image: url("https://avatars.mds.yandex.net/get-pdb/1932541/4faba33f-85a5-4e30-94a0-2d96478eac08/s1200");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-color: #000000;
-    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2)
 }
 
 .header::after {
@@ -90,139 +87,44 @@ a {
     color: #ffffff;
 }
 
-.container2 {
-    position: relative;
-    z-index: 1;
-    width: 736px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 125px;
-}
-
-.header-title {
-    font-size: 45px;
-    font-weight: bold;
-    line-height: 75px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.page {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1170px;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.card {
-    transition: .5s ease-in-out;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border: 1px solid black;
-    box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.img-box {
+.newsblock {
     width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: inline-block;
 }
 
-.card-content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5px;
+.news-image {
+    filter: brightness(40%)
 }
 
-.content-header>h6 {
-    word-break: break-word;
-    text-align: center;
-    border-top: 1px solid black;
+.slide-caption {
+    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 67px;
+    left: 49px;
 }
 
-.card-pic {
-    padding-top: 5px;
-    width: 150px;
-    height: 150px;
-    margin-left: 24.2px;
-    margin-left: 24.2px;
-}
-
-.footer {
-    width: 1170px;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    background-color: #B19893;
-}
-
-.copyright {
-    margin-top: 70px;
-    margin-bottom: 33px;
-}
-
-.copyright-text {
+.slide-text {
+    line-height: 55px;
+    width: 100%;
+    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 12px;
     font-weight: bold;
-    color: #000000;
-}
-
-.social-buttons {
-    background-color: #B19893;
-}
-
-.socials-list {
-    padding-left: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    list-style: none;
-}
-
-.socials-item {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.socials-link {
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    background-repeat: no-repeat;
-    background-size: 22px;
-    background-position: center;
-}
-
-.socials-link-facebook {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
-}
-
-.socials-link-instagram {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
-}
-
-.visually-hidden {
+    text-transform: uppercase;
     position: absolute;
-    display: block;
-    width: 1px;
-    height: 1px;
-    clip: rect(1px 1px 1px 1px);
+    bottom: 124px;
+    left: 17px;
 }
 
-.navbar-item-link:hover {
-    color: #000000;
-}
-
-.shows {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.showsblock {
+    background-image: url('../img/dio.jpg');
+    background-size: cover;
+    overflow: hidden;
+    position: static;
+    height: 623.5px;
 }
