@@ -89,10 +89,15 @@ a {
 
 .newsblock {
     width: 100%;
+    height: 650px;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
     display: inline-block;
+}
+
+.item {
+    height: 650px;
 }
 
 .news-image {
@@ -105,11 +110,11 @@ a {
     font-size: 22px;
     position: absolute;
     bottom: 67px;
-    left: 49px;
+    left: 17px;
 }
 
 .slide-text {
-    line-height: 55px;
+    line-height: 35px;
     width: 100%;
     color: white;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -117,14 +122,85 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     position: absolute;
-    bottom: 124px;
+    bottom: 24px;
     left: 17px;
 }
 
+.textblock {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .showsblock {
-    background-image: url('../img/dio.jpg');
+    background-image: url('../img/crowd.jpg');
     background-size: cover;
     overflow: hidden;
-    position: static;
-    height: 623.5px;
+    position: relative;
+    height: 1130px;
+    width: 100%;
+}
+
+.shows-header {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.schedule {
+    width: 100%;
+    line-height: 113px;
+    color: #ffffff;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+#show1 {
+    animation-delay: 1000ms;
+}
+
+#show2 {
+    animation-delay: 1100ms;
+}
+
+#show3 {
+    animation-delay: 1200ms;
+}
+
+#show4 {
+    animation-delay: 1300ms;
+}
+
+#show5 {
+    animation-delay: 1400ms;
+}
+
+#show6 {
+    animation-delay: 1500ms;
+}
+
+#show7 {
+    animation-delay: 1600ms;
+}
+
+#show8 {
+    animation-delay: 1700ms;
+}
+
+#show9 {
+    animation-delay: 1800ms;
+}
+
+#show10 {
+    animation-delay: 1900ms;
 }
