@@ -23,12 +23,6 @@ a {
     color: brown;
 }
 
-#logo-img {
-    height: 30%;
-    width: 30%;
-    opacity: 0.6;
-}
-
 .header {
     position: fixed;
     z-index: 2222;
@@ -85,6 +79,10 @@ a {
 
 .navbar-item-link {
     color: #ffffff;
+}
+
+.active {
+    color: #bc4343;
 }
 
 .newsblock {
@@ -154,7 +152,6 @@ a {
     width: 100%;
     line-height: 113px;
     color: #ffffff;
-    /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
 .hidden {
