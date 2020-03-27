@@ -16,8 +16,22 @@
 
 .month {
     font-weight: bold;
+    font-size: 2em;
+    color: #c21111;
+    border-top: 5px ridge #c21111;
+    border-bottom: 5px ridge #c21111;
+    border-right: 5px ridge #c21111;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    animation-delay: 900ms;
 }
 
 .header {
     top: 0;
+}
+
+td {
+    border: 5px outset #c21111;
+    border-collapse: collapse;
 }
