@@ -99,7 +99,7 @@ a {
 
 .top-five {
     height: 169px;
-    background-color: #7ada50;
+    background-color: #e3710d;
     align-items: flex-end;
 }
 
@@ -160,6 +160,11 @@ a {
     font-size: 0.8em;
 }
 
+.card-header {
+    font-weight: bold;
+    color: #e3710d;
+}
+
 .card_text {
     display: block;
     text-align: center;
@@ -170,4 +175,11 @@ a {
 .card-image {
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
+}
+
+.pagination {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1em;
+    cursor: default;
 }
