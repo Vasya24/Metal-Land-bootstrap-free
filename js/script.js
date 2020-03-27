@@ -11,12 +11,6 @@ $(window).ready(function() {
         animateOut: 'fadeOut'
     });
 
-    $('.navbar-item').mouseover(function() {
-        $(this).addClass('animated pulse faster')
-    });
-    $('.navbar-item').mouseout(function() {
-        $(this).removeClass('animated pulse faster')
-    });
     $("tr").mouseover(function() {
         $(this).css({
             color: '#545454',
