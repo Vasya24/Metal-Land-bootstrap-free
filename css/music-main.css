@@ -1,0 +1,21 @@
+.separator {
+    position: static;
+    display: flex;
+    flex-direction: row;
+}
+
+.double-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 600px;
+    height: 375px;
+}
+
+.styles {
+    background-image: url("../img/rock-tree.jpg");
+}
+
+.bands {
+    background-image: url("../img/helvete.JPG");
+}
