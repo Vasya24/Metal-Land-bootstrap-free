@@ -7,15 +7,35 @@
 .double-img {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 150px;
+    margin-left: 468px;
+    margin-right: 468px;
     width: 600px;
     height: 375px;
 }
 
 .styles {
+    width: 300px;
     background-image: url("../img/rock-tree.jpg");
+    text-align: center;
+    opacity: 0.7;
+    transition: 500ms ease-in-out;
 }
 
 .bands {
+    width: 300px;
     background-image: url("../img/helvete.JPG");
+    text-align: center;
+    opacity: 0.7;
+    transition: 500ms ease-in-out;
+}
+
+.styles-sign,
+.bands-sign {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2em;
+    color: #ffffff;
+    display: block;
+    margin-top: 150px;
 }
